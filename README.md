@@ -8,14 +8,14 @@ Voici le github contenant tous mes dossiers de mon projet ECF
 4. Etape de création de l'administrateur dans le back-office
 
 
-#  But du projet
+#  1: But du projet
 
 Ce projet à pour but de créer  de créer une application web vitrine pour le Garage V. Parrot,
 en mettant en avant la qualité des services délivrés par cette récente entreprise tel que la réparation et la vente de véhicule.
 
 Cette apllication web devra etre fourni avec  l'intégration, le développement , le déploiement , un wireframe, des diagrames et une carte graphique contenant la palette de couleur et la police d'ecriture.
 
-# Titre Les fonctionnalités desirées
+# 2: Les fonctionnalités desirées
 
 #  US1. Se connecter
 1. Un formulaire de connexion pour admin et employés avec e-mail et mot de passe securisé.
@@ -48,7 +48,7 @@ Cette apllication web devra etre fourni avec  l'intégration, le développement 
 2. Les avis seront moderer par un emplyé du garage.
 3. Une section spécifique doit etre attribuée pour les témoignage client.
 
-# Technologies Utilisées
+# 3: Technologies Utilisées
 Front-end:
     HTML 5
     CSS 3
@@ -57,7 +57,7 @@ Back-end:
     My sql
     PHP 8.2 sous PDO
 
-    # Etape de création de l'administrateur dans le back-office
+# 4: Etape de création de l'administrateur dans le back-office
 
 1. Cliquer sur le bouton connexion
    L'administrateur devra se connecter via le bouton connexion présent dans le header.
