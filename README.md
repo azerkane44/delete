@@ -63,7 +63,7 @@ Back-end:
    L'administrateur devra se connecter via le bouton connexion présent dans le header.
 
 2.Remplissage formulaire de connexion
-L'administrateur devra entrée son e-mail deja créer et se connecter grace à cette email  admin@gmail.com et se mot de passe admin1234.
+L'administrateur devra entrée son e-mail deja créer et se connecter grace à cette email admin@gmail.com et se mot de passe admin1234.
 
 3. Redirection vers l'espace d'administration et administration via le back-office.
 Vincent Parrot se rediriger vers l'espace d'administration grace à ce compte admin d'ou ils pourra créer et bannir des membres, ajouter des services , et voir les memebres inscrit tous cela grace à différent bouton doté d'une description pour gérer les différentes fonctionnalités citée.
