@@ -1,0 +1,202 @@
+/* Pour ecran de 600px ou moins */
+
+@media only screen and (max-width: 600px) {
+  #img {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  #searchbar,
+  #buttons {
+    margin: 10px;
+  }
+
+  .MainImageContainer {
+    width: 100%;
+  }
+
+  .ExpoVoiture {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* Logo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  margin-bottom: 30px;
+}
+
+#logovoiture {
+  text-align: center;
+}
+
+#img {
+  margin-left: 110px;
+  margin-top: 20px;
+  height: 90px;
+  width: 90px;
+  border-radius: 8px;
+}
+
+/* Liste */
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif, Arial;
+}
+
+li a:hover {
+  background-color: rgb(3, 128, 107);
+}
+
+hr {
+  margin: 10px 0;
+  background-color: #033741;
+  border: 0;
+  height: 1px;
+  width: 100%;
+}
+/*Bouton connexion */
+.container {
+  position: relative;
+}
+
+.button {
+  border-radius: 30px;
+  margin-right: 10px;
+  color: black;
+  font-style: none;
+}
+
+button:hover {
+  background-color: #d5ba0e;
+}
+button,
+a {
+  text-decoration: none;
+  color: black;
+  float: #b8e3df;
+}
+.container button:last-child {
+  margin-right: 0;
+}
+
+.container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/* Search button */
+#buttons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 130px;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+/* Button de bannisement*/
+
+#searchbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+/* Main image */
+#mainImg {
+  width: 50%;
+  margin: auto;
+}
+.MainImageContainer {
+  text-align: center;
+  background-color: #d4c8bd;
+}
+
+/* Logo de service*/
+
+.molette {
+  flex-direction: row;
+  display: flex;
+  margin: 20px 0px 20px;
+  font-size: 1.4rem;
+}
+.molette p {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.molette img {
+  width: 5%;
+}
+/*  Véhicule */
+.ExpoVoiture {
+  display: inline-block;
+  width: 30%;
+  border: solid 1px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.5);
+}
+
+.ExpoVoiture img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+#information {
+  margin-left: 10px;
+}
+
+/* Footer */
+footer {
+  color: white;
+  padding: 10px;
+  background-color: black;
+  height: 200px;
+}
+footer h3 {
+  font-size: 1.2em;
+  font-family: sans-serif, Arial;
+}
+
+/* Page numero 2 */
+
+#titrevoiture {
+  margin-top: 70px;
+  font-size: 50px;
+}
+
+/* Page espace d'administration */
+
+#titleadmin {
+  text-align: center;
+  color: #033741;
+  font-family: sans-serif, Arial;
+}
