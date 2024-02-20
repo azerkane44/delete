@@ -56,6 +56,7 @@ Front-end:
 Back-end:
     My sql
     PHP 8.2 sous PDO
+    PHP mailer
 
 # 4: Etape de création de l'administrateur dans le back-office
 
