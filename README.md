@@ -6,6 +6,7 @@ Voici le github contenant tous mes dossiers de mon projet ECF
 2. Les fonctionnalités désirées.
 3. Les technologies utilisés.
 4. Etape de création de l'administrateur dans le back-office
+5. Comment executer le projet en locale
 
 
 #  1: But du projet
@@ -68,6 +69,48 @@ L'administrateur devra entrée son e-mail deja créer et se connecter grace à c
 
 3. Redirection vers l'espace d'administration et administration via le back-office.
 Vincent Parrot se rediriger vers l'espace d'administration grace à ce compte admin d'ou ils pourra créer et bannir des membres, ajouter des services , et voir les memebres inscrit tous cela grace à différent bouton doté d'une description pour gérer les différentes fonctionnalités citée.
+
+# Nom du Projet
+
+
+## Prérequis
+- Wamp
+- Phpmailer
+- Php my admin
+- Un éditeur de code
+
+## Installation
+1. Cloner le dépôt : `git clone https://github.com/nom-utilisateur/nom-projet.git`
+2. créer un dossier dans C:\wamp64\www  "projet connexion " contenant un dossier images avec toute les images, et un dossier Phpmailer avec les documents du dossier tous 2 présents sur github.
+
+
+ 
+## Base de données
+1. Créer une base de donée "espaceadmin" avec une table "membre" conteant c'est information CREATE TABLE IF NOT EXISTS `membre` (
+/* Identifiant unique de chaque membre */
+  `id` int NOT NULL AUTO_INCREMENT,
+  /* Champ obligatoire pseudo */
+  `pseudo` text NOT NULL,
+  /* Champ obligatoire mot de passe*/
+  `password` text NOT NULL,
+2. Création de la 2ème table "servicetable" contenant ces informations CREATE TABLE IF NOT EXISTS `servicetable` (
+  `ID` int NOT NULL,
+  `ServiceName` varchar(100) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL
+
+
+## Exécution
+1. Lancer l'application wamp avec pour nom d'utilisateur root.
+2. Accéder à l'application dans votre navigateur à l'adresse http://localhost/projetconnexion/doc.php .
+
+
+## Liste des fonctionallités manquantes 
+- Posibiliter d'ajout de voiture pour les membres à partir de leur espace membre
+- Posibilier pour l'administrateur de modifier les heures du garage
+- le filtre
+- le receuil de témoigage client
+
+## Licence
+Ce projet est sous licence [Type de licence]. Voir le fichier LICENSE.md pour plus de détails.
 
   
     
