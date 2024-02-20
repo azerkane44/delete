@@ -70,7 +70,7 @@ L'administrateur devra entrée son e-mail deja créer et se connecter grace à c
 3. Redirection vers l'espace d'administration et administration via le back-office.
 Vincent Parrot se rediriger vers l'espace d'administration grace à ce compte admin d'ou ils pourra créer et bannir des membres, ajouter des services , et voir les memebres inscrit tous cela grace à différent bouton doté d'une description pour gérer les différentes fonctionnalités citée.
 
-# Nom du Projet
+# 5. Comment executer le projet en locale
 
 
 ## Prérequis
@@ -109,9 +109,8 @@ Vincent Parrot se rediriger vers l'espace d'administration grace à ce compte ad
 - le filtre
 - le receuil de témoigage client
 
-## Licence
-Ce projet est sous licence [Type de licence]. Voir le fichier LICENSE.md pour plus de détails.
-
+# Erreur
+N'ayant pas compris que Phpmyadmin etait en sgbr je l'ai utiliser, mais le code sql est présent dans mon github.
   
     
 
