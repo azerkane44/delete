@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T01:20:15.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" version="23.1.5" etag="KBT-hVyPYSzhr2xw8WJe" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T17:12:06.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="g4wwMf8pVDtV0G-xgwwY" version="23.1.5" type="github">
   <diagram name="Page-1" id="kmTWG0cwRQxtYjP0jLXp">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DWSKv-feCs7VHZvSrchm-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="820" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Utilisateur&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Email&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Mot de passe&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Vérification connexion&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Employé&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Email&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Mot de passe&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Ajout voiture&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ se connecter&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Validation témoignage&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;admin&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Email&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Mot de passe&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ajout service&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ création, supression compte &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.3;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.988;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DWSKv-feCs7VHZvSrchm-17" target="DWSKv-feCs7VHZvSrchm-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="350" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-24" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.005;exitY=0.592;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DWSKv-feCs7VHZvSrchm-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;b&gt;Voiture&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Marque&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- anées &lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- option&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- carburant&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-kilometrage&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- prix&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ affciher formulaire contact&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-26" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.963;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DWSKv-feCs7VHZvSrchm-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="560" as="sourcePoint" />
+            <mxPoint x="627.5" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="498" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-27" value="Contact&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;- Nom&lt;/div&gt;&lt;div&gt;- Prenom&lt;/div&gt;&lt;div&gt;- mail&lt;/div&gt;&lt;div&gt;- téléphone&lt;/div&gt;&lt;div&gt;- messsage&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ contacer garage&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-28" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.421;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DWSKv-feCs7VHZvSrchm-27" target="DWSKv-feCs7VHZvSrchm-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Service&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;- texte&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ajouter supprimer service&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="530" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DWSKv-feCs7VHZvSrchm-30" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.421;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.55;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="636" y="539" as="sourcePoint" />
+            <mxPoint x="634" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
