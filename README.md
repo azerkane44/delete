@@ -5,7 +5,8 @@ Voici le github contenant tous mes dossiers de mon projet ECF
 1. But du projet.
 2. Les fonctionnalités désirées.
 3. Les technologies utilisés.
-4. Etape de création de l'administrateur dans le back-office
+4. Etape de création de l'administrateur dans le back-office.
+5. Exécution du projet en locale.
 
 
 #  1: But du projet
@@ -68,7 +69,16 @@ L'administrateur devra entrée son e-mail deja créer et se connecter grace à c
 3. Redirection vers l'espace d'administration et administration via le back-office.
 Vincent Parrot se rediriger vers l'espace d'administration grace à ce compte admin d'ou ils pourra créer et bannir des membres, ajouter des services , et voir les memebres inscrit tous cela grace à différent bouton doté d'une description pour gérer les différentes fonctionnalités citée.
 
-  
+4.Pour l'espace employés il pourra se connecter via le meme formulaire de connexionil en rentrant un e-mail et mot de passse créer par l'admin, pour etre ensuite rediriger vers son espace membre.
+
+
+# 5.Exécution du projet en locale
+1. Télecharger le code via le github
+2. Télecharger et installer le projet dans le répertoire www de votre installation WampServer. Ce répertoire est généralement situé à C:\wamp64\www.
+3. 5. Se connecter sur PhPMydmin avec le nom d'utilisateur Root, puis créer une base de donées PhpMyAdmin espacemembre avec une table membre et une table servicetable.
+4. Lancer Wamp serveur
+5. Accéder à l'URL http://localhost/+le nom du projet située dans votre dossier www.
+7. Explorer les différentes fonctionnalités de l'apllication web.
     
 
 
